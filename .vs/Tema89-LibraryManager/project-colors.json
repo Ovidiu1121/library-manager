@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b0a43c35-c90c-4ecb-87c6-d7487e497af5": {
+      "ProjectGuid": "b0a43c35-c90c-4ecb-87c6-d7487e497af5",
+      "DisplayName": "Tema89-LibraryManager",
+      "ColorIndex": 0
+    },
+    "6d37759e-2199-408c-acf4-d614f8235309": {
+      "ProjectGuid": "6d37759e-2199-408c-acf4-d614f8235309",
+      "DisplayName": "Test",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
