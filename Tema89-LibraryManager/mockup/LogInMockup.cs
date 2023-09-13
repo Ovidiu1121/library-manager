@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tema89_LibraryManager
+namespace Tema89_LibraryManager.mockup
 {
-    public partial class Form1 : Form
+    public partial class LogInMockup : Form
     {
-        public Form1()
+        public LogInMockup()
         {
             InitializeComponent();
         }

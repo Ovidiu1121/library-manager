@@ -66,3 +66,6 @@ C:\Data\charp\Teme\Tema89-LibraryManager\Tema89-LibraryManager\obj\Debug\Tema89-
 C:\Data\charp\Teme\Tema89-LibraryManager\Tema89-LibraryManager\obj\Debug\Tema89-LibraryManager.csproj.CopyComplete
 C:\Data\charp\Teme\Tema89-LibraryManager\Tema89-LibraryManager\obj\Debug\Tema89-LibraryManager.exe
 C:\Data\charp\Teme\Tema89-LibraryManager\Tema89-LibraryManager\obj\Debug\Tema89-LibraryManager.pdb
+C:\Data\charp\Teme\Tema89-LibraryManager\Tema89-LibraryManager\obj\Debug\Tema89_LibraryManager.FrmHome.resources
+C:\Data\charp\Teme\Tema89-LibraryManager\Tema89-LibraryManager\obj\Debug\Tema89_LibraryManager.mockup.AddBookMockup.resources
+C:\Data\charp\Teme\Tema89-LibraryManager\Tema89-LibraryManager\obj\Debug\Tema89_LibraryManager.mockup.LogInMockup.resources

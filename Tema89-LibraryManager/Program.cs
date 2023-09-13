@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tema89_LibraryManager.models;
+using Tema89_LibraryManager.Repository;
 
 namespace Tema89_LibraryManager
 {
@@ -16,7 +18,9 @@ namespace Tema89_LibraryManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmHome());
+
+
         }
     }
 }

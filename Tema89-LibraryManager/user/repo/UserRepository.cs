@@ -13,6 +13,7 @@ namespace Tema89_LibraryManager.Repository
 {
     public class UserRepository : IUserRepository
     {
+        private List<User> users;
         private string connectionString;
         private DataAccess dataAccess;
 
@@ -20,6 +21,19 @@ namespace Tema89_LibraryManager.Repository
         {
             this.dataAccess = new DataAccess();
             this.connectionString =GetConnection();
+
+            users = new List<User>();
+            load();
+        }
+
+        public void load()
+        {
+            List<User>lst=getAllUsers();
+
+            foreach (User user in lst)
+            {
+                users.Add(user);
+            }
         }
 
         public void addUser(User user)
@@ -50,11 +64,23 @@ namespace Tema89_LibraryManager.Repository
             return this.dataAccess.LoadData<User, dynamic>(sql, new { id }, connectionString)[0];
         }
 
+        public User getUserByNumeParola(string nume, string parola)
+        {
+            string sql = "select * from user where name=@nume and password=@parola";
+
+            return this.dataAccess.LoadData<User, dynamic>(sql, new { nume,parola }, connectionString)[0];
+        }
+
         public void updateUser(User user)
         {
             string sql = "update user set name=@name,email=@email,password=@password,rolee=@role";
 
             this.dataAccess.SaveData(sql, new { user.Name, user.Email, user.Password, user.Role }, connectionString);
+        }
+
+        public int size()
+        {
+            return this.users.Count;
         }
 
         public string GetConnection()
